@@ -1,42 +1,50 @@
- <div class="container">
+<div class="container">
 
-        <div class="row gy-4 gx-5">
+  <div class="row gy-4 gx-5">
 
-          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+      <img src="assets/img/about.png" class="img-fluid" alt="">
+     
+    </div>
+
+    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+      <h3>About Us</h3>
+      <p>
+        MediConnect is an intelligent healthcare platform designed to connect customers, drugstores, and administrators
+        through a seamless and secure system. Our mission is to simplify access to the right medications by using
+        cutting-edge AI technology.
+      </p>
+      <ul>
+        <li>
+          <i class="fa-solid fa-vial-circle-check"></i>
+          <div>
+            <h5>AI‑Powered Medicine Finder</h5>
+            <p>Upload your symptoms, prescription, or even a photo of the medicine. Our AI analyzes your input and
+              searches local drugstore inventories to recommend the most suitable medication available.
+              How it works: Powered by advanced AI trained on pharmacy stock and clinical guidelines, the system
+              identifies the right medicine and suggests nearby availability. This approach helps prevent incorrect drug
+              use and saves time for users .</p>
           </div>
-
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>About Us</h3>
-            <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
-            </p>
-            <ul>
-              <li>
-                <i class="fa-solid fa-vial-circle-check"></i>
-                <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                </div>
-              </li>
-              <li>
-                <i class="fa-solid fa-pump-medical"></i>
-                <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                </div>
-              </li>
-              <li>
-                <i class="fa-solid fa-heart-circle-xmark"></i>
-                <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
-                </div>
-              </li>
-            </ul>
+        </li>
+        <li>
+          <i class="fa-solid fa-pump-medical"></i>
+          <div>
+            <h5>Smart Preparation & Fulfillment Hub</h5>
+            <p>AI optimizes inventory, predicts demand, and tracks stock and expiration, reducing waste and ensuring
+              accuracy . This means quicker service and more reliable supply planning.</p>
           </div>
+        </li>
+        <li>
+          <i class="fa-solid fa-heart-circle-xmark"></i>
+          <div>
+            <h5>Quality Control</h5>
+            <p>Oversee the full ecosystem: manage user roles, onboard drugstores, monitor AI model performance, and
+              ensure recommendation accuracy.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-        </div>
+  </div>
 
-      </div>
+</div>
