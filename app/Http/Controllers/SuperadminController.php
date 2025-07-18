@@ -15,7 +15,7 @@ class SuperadminController extends Controller
 
         if ($usertype == 'superadmin')
             {
-            return view('dashboard');
+            return view('superadmin.index');
             } 
         else if ($usertype == 'drugstore') 
             {
