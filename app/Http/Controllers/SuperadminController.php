@@ -10,26 +10,28 @@ class SuperadminController extends Controller
 {
     public function index()
     {
-           if (Auth::id()) {
-        $usertype = Auth()->user()->usertype;
+        if (Auth::id()) {
+            $usertype = Auth()->user()->usertype;
 
-        if ($usertype == 'superadmin')
-            {
-            return view('superadmin.index');
-            } 
-        else if ($usertype == 'drugstore') 
-            {
-            return view('drugstore.index');
+            if ($usertype == 'superadmin') {
+                return view('superadmin.index');
+            } else if ($usertype == 'drugstore') {
+                return view('drugstore.index');
+            } else if ($usertype == 'customer') {
+                return view('customer.index');
+            } else {
+                return redirect()->back();
             }
-        else if ($usertype == 'customer') 
-            {
-            return view('customer.index');
-            }
-        else
-            {
-            return redirect()->back();
-            }
-        
+
+
+
+        }
+
     }
+
+    public function create_customer()
+    {
+        return view('superadmin.create_customer');
     }
+
 }
