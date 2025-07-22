@@ -84,4 +84,13 @@ class SuperadminController extends Controller
             return redirect()->back()->with('error', 'Failed to create customer. Please try again.');
         }
     }
+
+
+
+public function view_customers()
+{
+    $customers = Customer::with('user')->get();
+    return view('superadmin.view_customers', compact('customers'));
+}
+
 }

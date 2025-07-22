@@ -13,6 +13,8 @@ Route::get('/', [LandingController::class, 'home']);
 Route::get('/home', [SuperadminController::class, 'index'])->name('home');
 Route::get('/superadmin/create-customer', [SuperadminController::class, 'create_customer'])->name('superadmin.create_customer');
 Route::post('/superadmin/store-customer', [SuperadminController::class, 'store_customer'])->name('superadmin.customers.store');
+Route::get('/superadmin/customers', [SuperadminController::class, 'view_customers'])->name('superadmin.customers');
+
 
 
 // Customer Routes

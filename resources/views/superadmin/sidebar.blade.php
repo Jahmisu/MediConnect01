@@ -25,7 +25,7 @@
                         </a>
                         <ul class="collapse">
                             <li><a href="{{ route('superadmin.create_customer') }}">Add Customers</a></li>
-                            <li><a href="#">View Customers</a></li> <!-- Replace with actual route -->
+                            <li><a href="{{ route('superadmin.customers') }}">View Customers</a></li>
                         </ul>
                     </li>
 
@@ -35,11 +35,11 @@
                             <span>Drugstores</span>
                         </a>
                         <ul class="collapse">
-                            <li><a href="#">Create Drugstore</a></li> <!-- Replace with actual route -->
-                            <li><a href="#">View Drugstore</a></li>   <!-- Replace with actual route -->
-                            <li><a href="#">View Inventory</a></li>   <!-- Replace with actual route -->
-                            <li><a href="#">Form</a></li>             <!-- Replace with actual route -->
-                            <li><a href="#">Grid System</a></li>      <!-- Replace with actual route -->
+                            <li><a href="#">Create Drugstore</a></li> <!-- TODO: Replace with actual route -->
+                            <li><a href="#">View Drugstore</a></li>   <!-- TODO: Replace with actual route -->
+                            <li><a href="#">View Inventory</a></li>   <!-- TODO: Replace with actual route -->
+                            <li><a href="#">Form</a></li>             <!-- TODO: Replace with actual route -->
+                            <li><a href="#">Grid System</a></li>      <!-- TODO: Replace with actual route -->
                         </ul>
                     </li>
 
@@ -49,8 +49,8 @@
                             <span>Settings</span>
                         </a>
                         <ul class="collapse">
-                            <li><a href="#">FontAwesome Icons</a></li> <!-- Replace with actual route -->
-                            <li><a href="#">Themify Icons</a></li>      <!-- Replace with actual route -->
+                            <li><a href="#">FontAwesome Icons</a></li> <!-- TODO: Replace with actual route -->
+                            <li><a href="#">Themify Icons</a></li>      <!-- TODO: Replace with actual route -->
                         </ul>
                     </li>
                 </ul>
